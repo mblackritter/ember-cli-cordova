@@ -1,6 +1,4 @@
-# ember-cli-cordova [![Build Status](https://travis-ci.org/poetic/ember-cli-cordova.svg?branch=master)](https://travis-ci.org/poetic/ember-cli-cordova)
-
-*requires at least ember-cli >= 0.1.1*
+# ember-cli-cordova [![Build Status](https://travis-ci.org/poetic/ember-cli-cordova.svg?branch=master)](https://travis-ci.org/poetic/ember-cli-cordova) [![Gitter](https://badges.gitter.im/poetic/ember-cli-cordova.svg)](https://gitter.im/poetic/ember-cli-cordova?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 I will not be focusing on backward compatibility with older ember-cli versions
 as it's moving too fast and the API is constantly changing. I will always have
@@ -15,6 +13,12 @@ apps with cordova and ember as simple as possible.
 
 Android and iOS. While we don't plan on actively supporting other platforms,
 feel free to open an issue or submit a pull request.
+
+## Required Ember Versions
+
+Releases as of 0.1.0 require Ember 2.x and ember-cli 2.3.0.
+
+The lastest release for Ember 1.x is 0.0.19 and requires at least ember-cli >= 0.1.1
 
 ## Getting Started
 
@@ -42,6 +46,19 @@ Documentation can be found found in the docs directory [here](https://github.com
 - [Getting Started](https://github.com/poetic/ember-cli-cordova/blob/master/docs/getting-started.md)
 - [Configuration](https://github.com/poetic/ember-cli-cordova/blob/master/docs/configuration.md)
 - [FAQ](https://github.com/poetic/ember-cli-cordova/blob/master/docs/faq.md)
+
+# ember-cordova
+
+[ember-cordova](https://github.com/isleofcode/ember-cordova) recently started as a fork of ember-cli-cordova by some
+contributors and maintainers. It only supports Ember 2, and includes
+added features such as build hooks, native splash screen & icon management,
+a platform service (e.g. isIOS) and an ember/cordova plugin ecosystem.
+
+ember-cli-cordova will still be maintained and active.
+
+It does not include features such as mobiletouch by default, starter
+blueprints and support for Ember <2. For these items, your best bet is
+to continue with ember-cli-cordova.
 
 # Dependency Docs
 
